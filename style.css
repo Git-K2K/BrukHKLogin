@@ -1,0 +1,131 @@
+/*Jag använder nästan alltid "margin: 0, padding: 0, box-sizing: border-box" i bodyn på css delen för att undvika problem med positionering senare i projektet*/
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    background-image: url(images/256745-werecat.jpg);
+    background-repeat: no-repeat;
+   
+    
+    
+}
+/*Formbox1 stylead och placerad så att den i princip hamnar i mitten av skärmen och även gett den en "max-width på 400px" vilket ser snyggt ut på sidan */
+#formbox1
+{
+    
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 3rem;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: whitesmoke; 
+    
+}
+#formbox1 > h1
+{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+#formbox2
+{
+    
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 3rem;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: whitesmoke; 
+    
+}
+
+#formbox2 > h1
+{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+/*Detta är inputboxen för användarnamnet*/
+.namn
+{
+    display: block;
+    width: 70%;
+    margin: auto;
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+}
+#formbox3
+{
+    
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 3rem;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: whitesmoke; 
+    
+}
+#formbox3 > h1
+{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+/*Detta är inputboxen för lösenordet*/
+.losen
+{
+    display: block;
+    width: 70%;
+    margin: auto;
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+/*Detta är stylen för button knappen "logga in och logga ut"*/
+button
+{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    
+}
+/*denna koden gör att när musen är över button knappen så får den en goldenrod färg*/
+button:hover
+{
+    background-color: goldenrod;
+}
+h1
+{
+    text-align: center;
+}
+/*Detta är bilden/texten "Brukhundsklubben" som visas på sidan */
+.bild
+{
+    text-align: center;
+    padding-top: 5rem;
+}
+/*Informationsboxen där information om sidan visas*/
+.information
+{
+    max-width: 400px;
+    margin: auto;
+    padding: 1rem;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: goldenrod; 
+    background-color: b;
+    text-align: center;    
+
+}

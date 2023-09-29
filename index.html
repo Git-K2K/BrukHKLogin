@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Kopplat CSS filen till html-->
+    <link rel="stylesheet" href="style.css">
+   <!--Kopplat JavaScript filen till html-->
+    <script src="script.js"></script>
+    
+    <!--Några fonter som jag plockat från google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <title>Logga in</title>
+</head>
+<body>
+    <div class="bild">  
+        <img src="images/ec183ae797cc6c8e9d3a58cfbf6a7a32.png">
+    </div>
+    <!--En logga in box som jag kallat för formbox1 och lagt in som en id-->
+    <form id="formbox1" action="index.html">
+        <h1>Logga in</h1>
+        <input class="namn" type="text" name="" placeholder="Användarnamn" id="username">
+        <!--Lagt till taggen "<br>" i koden så att det blir mellanrum mellan varje input ruta och button"-->
+        <br>
+        <input class="losen" type="password" name="" placeholder="Lösenord" id="password">
+        <br>
+        <button onclick="loggain(event)">Logga in</button>
+
+    </form>
+     <!--En logga ut box som jag kallat för formbox2-->
+    <form id="formbox2" action="index.html" style="display: none";>
+        <h1>Välkommen, du är nu inloggad</h1> 
+        <br>
+        <button onclick="loggaut(event)">Logga ut</button>
+
+    </form>
+
+
+     </form>
+     <!--En försök igen box som jag kallat för formbox3-->
+    <form id="formbox3" action="index.html" style="display: none";>
+        <h1>Användarnamn eller Lösenord är felaktiga!</h1> 
+        <br>
+        <button onclick="tryagain(event)">Försök igen</button>
+
+    </form>
+    
+    <!--En div med en class kallad "information" visar lite information om sidan (just nu lorem ipsum text)-->
+    <div class="information">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Dolores ipsum ad accusamus maiores eos dolorem nam aperiam architecto<br> illum aliquid dignissimos iure porro,<br> ex reiciendis voluptates soluta sapiente, dolorum voluptate.</p>
+
+    </div>
+    
+</body>
+</html>
