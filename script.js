@@ -20,8 +20,8 @@ event.preventDefault();
 const username=document.getElementById("username").value;
 const password=document.getElementById("password").value;
 
-//Om Namn=bella och Lösenord=qwe123 så kommer formbox2 att visas
-if(username==="bella" && password==="qwe123")
+//Om Namn=Bella och Lösenord=qwe123 så kommer formbox2 att visas
+if(username==="Bella" && password==="qwe123")
 {
  
     localStorage.setItem("Status", "Inloggad");
